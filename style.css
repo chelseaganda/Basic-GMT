@@ -125,7 +125,8 @@
 }
    /* HEADER */
    .header{
-    background:var(--dark);
+    background:transparent;
+    padding:2rem;
     position:relative;
     position:fixed;
     width:100%;
@@ -211,7 +212,7 @@
     align-items:center;
     transition:.5s ease;
   }
-}
+
   .header__nav ul.nav{
   display:flex;
   flex-direction:column;
@@ -234,7 +235,13 @@
   }
 }
 
-
+/* BANNER */
+.banner{
+  background-image:url("/img/banner_home_v1.jpg");
+  background-size:cover;
+  height:100vh;
+  background-position:center center;
+}
 
 
     /* REPEATABLE PATTERNS */
